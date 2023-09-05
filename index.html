@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form id="Formulario">
+<h1>Formulario de registro</h1>
+<ul>
+ <li>
+ <label for="nombre">Nombre:</label>
+ <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aquí" required>
+ </li>
+ <li>
+  <label for="apellido">Apellido:</label>
+  <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido aquí" required>
+  </li>
+  <li>
+  <label for="fechadenacimiento">Fecha de nacimiento:</label>
+  <input type="date" name="fechadenacimiento" id="fechadenacimiento" required>
+ </li>
+ </ul>
+ <div class="button-login">
+ <input type="submit" class="button-login" id="button" value="Enviar">
+ </div>
+</form>
+
+<script src="enviarinfo.js"></script>
+</body>
+</html>
